@@ -36,7 +36,7 @@ def getProjectinfo(url, end, start=1) :
 
 def main():
     url = 'http://ydct.or.kr/projects/?sf_paged='
-    results =  getProjectinfo(url, end=14, start=1)
+    results =  getProjectinfo(url, end=15, start=1)
     results.to_csv("./yd_projects.csv")
 
 if __name__ == "__main__":
